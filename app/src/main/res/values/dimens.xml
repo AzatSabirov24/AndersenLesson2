@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="et_message_for_send_margin_start">8dp</dimen>
+    <dimen name="et_message_for_send_margin_left">8dp</dimen>
+    <dimen name="et_message_for_send_margin_bottom">16dp</dimen>
+    <dimen name="btn_send_message_margin_end">8dp</dimen>
+    <dimen name="btn_send_message_margin_bottom">16dp</dimen>
+    <dimen name="tv_message_margin_start">16dp</dimen>
+    <dimen name="tv_message_margin_top">16dp</dimen>
+    <dimen name="tv_reply_margin_start">16dp</dimen>
+    <dimen name="tv_reply_margin_top">16dp</dimen>
+    <dimen name="btn_in_main_activity_text_size">16sp</dimen>
+    <dimen name="default_padding">8dp</dimen>
+    <dimen name="main_activity_tv_text_size">20sp</dimen>
+    <dimen name="main_activity_tv_margin_start">8dp</dimen>
+    <dimen name="main_activity_tv_margin_top">8dp</dimen>
+    <dimen name="main_activity_btn_margin_top">8dp</dimen>
+    <dimen name="default_btn_margin_start">0dp</dimen>
+    <dimen name="default_btn_margin_end">0dp</dimen>
+    <dimen name="main_activity_tv_lesson_1_padding_bottom">16dp</dimen>
+    <dimen name="btn_default_corner_radius">6dp</dimen>
+    <dimen name="tv_count">150sp</dimen>
+    <dimen name="article_margin_top">16dp</dimen>
+    <dimen name="article_subheading_text_size">20sp</dimen>
+    <dimen name="article_text_size">18sp</dimen>
+    <dimen name="margin_default_for_scroll_text">4dp</dimen>
+    <dimen name="article_subheading_width">100dp</dimen>
+    <dimen name="tv_hello_text_size">30sp</dimen>
+    <dimen name="margin_tv_count_sec_act">16dp</dimen>
+    <dimen name="text_size_tv_count_sec_act">30sp</dimen>
+    <dimen name="tv_count_les_2_2_text_size">36sp</dimen>
+    <dimen name="margin_top_default_les_2_3">24dp</dimen>
+</resources>

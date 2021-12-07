@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lesson1_3_Activity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/default_padding">
+
+            <TextView
+                android:id="@+id/article_subheading"
+                android:layout_width="@dimen/article_subheading_width"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_default_for_scroll_text"
+                android:text="@string/article_subheading_text"
+                android:textSize="@dimen/article_subheading_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/article"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_default_for_scroll_text"
+                android:text="@string/article_text"
+                android:textSize="@dimen/article_text_size" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

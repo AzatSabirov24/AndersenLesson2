@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="btn_default_style" parent="@android:style/Widget.Button">>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/btn_in_main_activity_text_color</item>
+        <item name="backgroundTint">@color/btn_and_tv_main_color</item>
+        <item name="android:textSize">@dimen/btn_in_main_activity_text_size</item>
+        <item name="android:layout_marginStart">@dimen/default_btn_margin_start</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cornerRadius">@dimen/btn_default_corner_radius</item>
+    </style>
+</resources>

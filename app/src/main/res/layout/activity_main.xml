@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_activity_background_color"
+    android:orientation="vertical"
+    android:padding="@dimen/default_padding"
+    tools:context=".MainActivity">
+
+
+    <!--  <EditText
+          android:id="@+id/et_message_for_send"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="@dimen/et_message_for_send_margin_start"
+          android:layout_marginEnd="@dimen/et_message_for_send_margin_left"
+          android:layout_marginBottom="@dimen/et_message_for_send_margin_bottom"
+          android:ems="10"
+          android:hint="@string/et_message_for_send_hint"
+          android:inputType="textPersonName"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/btn_send_message"
+          app:layout_constraintStart_toStartOf="parent" />
+
+      <Button
+          android:id="@+id/btn_send_message"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="@dimen/btn_send_message_margin_end"
+          android:layout_marginBottom="@dimen/btn_send_message_margin_bottom"
+          android:text="@string/btn_send_message_text"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent" />
+
+      <TextView
+          android:id="@+id/tv_reply"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="@dimen/tv_reply_margin_start"
+          android:layout_marginTop="@dimen/tv_reply_margin_top"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />-->
+    <TextView
+        android:id="@+id/tv_lesson_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/main_activity_tv_margin_start"
+        android:layout_marginTop="@dimen/main_activity_tv_margin_top"
+        android:paddingBottom="@dimen/main_activity_tv_lesson_1_padding_bottom"
+        android:text="@string/tv_lesson_1_text"
+        android:textColor="@color/main_activity_tv_text_color"
+        android:textSize="@dimen/main_activity_tv_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_1.1"
+        style="@style/btn_default_style"
+        android:text="@string/btn_1.1_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lesson_1" />
+
+    <Button
+        android:id="@+id/btn_1.2.A"
+        style="@style/btn_default_style"
+        android:text="@string/btn_1.2.A_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_1.1" />
+
+    <Button
+        android:id="@+id/btn_1.2.B"
+        style="@style/btn_default_style"
+        android:text="@string/btn_1.2.B_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_1.2.A" />
+
+    <Button
+        android:id="@+id/btn_1.3"
+        style="@style/btn_default_style"
+        android:text="@string/btn_1.3_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_1.2.B" />
+
+    <Button
+        android:id="@+id/btn_1.4"
+        style="@style/btn_default_style"
+        android:text="@string/btn_1.4_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_1.3" />
+
+    <TextView
+        android:id="@+id/tv_lesson_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/main_activity_tv_margin_start"
+        android:layout_marginTop="@dimen/main_activity_tv_margin_top"
+        android:paddingBottom="@dimen/main_activity_tv_lesson_1_padding_bottom"
+        android:text="@string/tv_lesson_2_text"
+        android:textColor="@color/main_activity_tv_text_color"
+        android:textSize="@dimen/main_activity_tv_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_1.4" />
+
+    <Button
+        android:id="@+id/btn_2.1"
+        style="@style/btn_default_style"
+        android:text="@string/btn_2.1_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lesson_2" />
+
+    <Button
+        android:id="@+id/btn_2.2"
+        style="@style/btn_default_style"
+        android:text="@string/btn_2.2_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_2.1" />
+
+    <Button
+        android:id="@+id/btn_2.3"
+        style="@style/btn_default_style"
+        android:text="@string/btn_2.3_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_2.2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

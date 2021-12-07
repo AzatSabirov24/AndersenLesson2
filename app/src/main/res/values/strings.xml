@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">AndersenLesson2</string>
+    <string name="et_message_for_send_hint">Enter Your Message</string>
+    <string name="btn_send_message_text">Send</string>
+    <string name="btn_reply_message_text">Reply</string>
+    <string name="tv_lesson_1_text">Lesson 1: Build your first app</string>
+    <string name="tv_lesson_2_text">Lesson 2: Activities and intents</string>
+    <string name="btn_1.1_text">1.1: Android Studio and Hello World</string>
+    <string name="btn_1.2.A_text">1.2 Part A: Your first interactive UI</string>
+    <string name="btn_1.2.B_text">1.2 Part B: The layout editor</string>
+    <string name="btn_1.3_text">1.3: Text and scrolling views</string>
+    <string name="btn_1.4_text">1.4: Learn to help yourself</string>
+    <string name="btn_2.1_text">2.1: Activities and intents</string>
+    <string name="btn_2.2_text">2.2: Activity lifecycle and state</string>
+    <string name="btn_2.3_text">2.3: Implicit intents</string>
+    <string name="tv_hello_world_text">Hello World!</string>
+    <string name="btn_toast_text">Toast</string>
+    <string name="btn_say_hello_text">Say Hello</string>
+    <string name="btn_count_text">Count</string>
+    <string name="btn_zero_text">0</string>
+    <string name="toast_text">Hello, Toast</string>
+    <string name="count_initial_value">0</string>
+    <string name="article_text">Watching the surviving film of the football work of the recently departed England international striker, Jimmy Greaves, is a stark reminder of the vastly different playing regimes that existed in English football in the early 1960s compared to the manicured Premier League era of today.
+        Greaves played in two winning FA Cup finals for Spurs, in 1962 and 1967. FA cups were about the only “live” club football available on TV to the British public at the time, but these were occasions celebrated not only for the trophies concerned. These were also among the few fixtures for which the players involved could look forward to a playing surface that did not resemble some boggy no-man’s-land dragged up from a first world war reconstruction.
+        ITV is currently broadcasting The Big Match Revisited, a highlights’ show from the early-1970s. This routinely reminds us that the science of pitch preparation and recovery had barely knocked on the door of the English game – certainly not in the months after Christmas.
+        This was the case even as Greaves’ career was fast winding down. He played in a period when hulking defenders had the weight advantage over high-stepping, slight forwards. But many contemporaries contend that Greaves could glide over these muddied fields leaving marking defenders flailing in his wake. It certainly looks that way from the few surviving film clips. Like the troubled and brilliant George Best – who was at his peak around the same time – Greaves would end up having more than one public persona. Firstly, there was “Greaves” the player – the lazy team-mate without the ball, but a man who came alive when in possession and who, single-minded, thought of only one outcome: scoring goals. “I often passed to him”, his Spurs strike partner Martin Chivers ruefully observed on TV after the news of Greaves’ death broke on September 19, “but I never expected a pass back.”Greed is generally prized among the very best strikers even today, though scoring goals is a team pursuit. And Jimmy Greaves remains the top scorer in top-flight English football, with 357 goals from 516 matches compared with the next player on the list, Alan Shearer, who scored 283 goals in 559 matches. Few would bet on this record being overtaken anytime soon.
+</string>
+    <string name="article_subheading_text">Jimmy Greaves: English football’s top goalscorer</string>
+    <string name="tv_app_icon_changed">App icon was changed</string>
+    <string name="tv_hello_text">Hello!</string>
+    <string name="tv_count_sec_act_default_text">0</string>
+    <string name="tv_count_les_2_2_text">0</string>
+    <string name="btn_count_les_2_2_text">Count</string>
+    <string name="et_count_les_2_2_hint">Enter Your Text</string>
+    <string name="et_uri">http://developer.android.com</string>
+    <string name="btn_uri">Open Website</string>
+    <string name="et_loc">Golden Gate Bridge</string>
+    <string name="btn_loc">Open Location</string>
+    <string name="et_share">\'Twas brillig and the slithy toves</string>
+    <string name="btn_share">Share This Text</string>
+    <string name="btn_camera_text">Take a picture</string>
+</resources>
